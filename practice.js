@@ -1,7 +1,24 @@
+var sam = {
+  name: "Sam",
+  age: 5,
+  introduceMe: function (animal) {
+    alert("My name is "+ this.name + " and I am " + this.age + " and my current favorite animal is " + animal + ".");
+  }
+}
+
+var jim = {
+  name: "Jim",
+  age: 7
+}
+
+// sam.introduceMe("tiger");
+// sam.introduceMe.apply(jim, ["lion"]);
+
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
       //Answer
+      //   "this" usually refers to the object to bind elements to an object or refer to elements in the object while in context of the object, usually in context of a constructor function.  It is in order to remove ambiguity about if you are referring to another variable or object other than the one you're creating.
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
@@ -10,10 +27,12 @@
   // 3) What is the difference between call and apply?
 
       //Answer
+      //    They behave similarly, in pulling a method form one object but executing it in the context of a different object.  If you use "call()", you first specify the object you're applying it to, then list the parameters afterward as needed, separated by commas.  If you use "apply()", you first specify the object you're applying the context from, but then pass the parameters into the affected function in an array in the order specified in the function.
 
   // 4) What does .bind do?
 
       //Answer
+      //    .bind binds a method of an object to another variable and uses "this" in the context of the object where the method is from.  You first have to specify the object that you're pulling it from (or in the case of functions outside of an object, you pass in "null"), and then list any parameters if the function requires it. 
 
 
 //Next Problem
