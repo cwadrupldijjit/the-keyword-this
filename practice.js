@@ -24,6 +24,14 @@ var jim = {
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
       //Answer
+      //
+      //
+      //
+      //
+      //                    DON'T FORGET ME!!!!!!!!
+      //
+      //
+      //
 
   // 3) What is the difference between call and apply?
 
