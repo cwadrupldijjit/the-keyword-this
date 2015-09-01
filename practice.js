@@ -24,10 +24,11 @@ var jim = {
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
       //Answer
-      //
-      //
-      //
-      //
+      //    1. the object on the left of the dot using dot notation is what "this" is assigned to
+      //    when we explicitly tell it what object this applies to:
+      //    2. .bind()
+      //    3. .call()
+      //    4. .apply()
       //                    DON'T FORGET ME!!!!!!!!
       //
       //
