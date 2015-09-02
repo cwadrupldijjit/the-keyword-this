@@ -24,15 +24,10 @@ var jim = {
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
       //Answer
-      //    1. the object on the left of the dot using dot notation is what "this" is assigned to
-      //    when we explicitly tell it what object this applies to:
-      //    2. .bind()
-      //    3. .call()
-      //    4. .apply()
-      //                    DON'T FORGET ME!!!!!!!!
-      //
-      //
-      //
+      //    1. implicit = implied, anything on the left of the period
+      //    2. explicit = outright telling what "this" refers to (using bind, call, or apply methods)
+      //    3. default = binding to the window object if there is no other holding object
+      //    4. new = binding the properties found in a constructor function to a new object
 
   // 3) What is the difference between call and apply?
 
